@@ -13,6 +13,7 @@
 # limitations under the License.
 
 LOCAL_STEM := tilapia/BoardConfigPartial.mk
+USE_CAMERA_STUB := false
 
 -include vendor/asus/$(LOCAL_STEM)
 -include vendor/broadcom/$(LOCAL_STEM)
